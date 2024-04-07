@@ -9,7 +9,8 @@ const config: Config = {
   ],
   theme: {
     daisyui: {
-      themes: ["cupcake", "dark", "cmyk"],
+      themes: [
+        "cupcake", "dark", "cmyk"],
     },
     extend: {
       backgroundImage: {
@@ -19,9 +20,11 @@ const config: Config = {
       },
       colors: {
         "main-section": "#FFD4D0",
+        "bg-section": "#F7F7F7",
         "h-one": "#1F1F1F",
         "h-two": "#ffffff",
-        "h-three": "#FC3314"
+        "h-three": "#FC3314",
+        "progress-bg": "#E1E1E1"
       },
     },
   },
