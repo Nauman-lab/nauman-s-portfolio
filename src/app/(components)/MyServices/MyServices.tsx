@@ -1,7 +1,7 @@
 import React from "react";
 import ServicesCard from "../ServicesCard/ServicesCard";
 
-const MyServices = () => {
+const MyServices: React.FC = () => {
   // Define array of service data
   const servicesData = [
     {
@@ -31,7 +31,7 @@ const MyServices = () => {
   ];
 
   return (
-    <div className="bg-h-two">
+    <div id="services" className="bg-h-two">
       <div className="container mx-auto px-5 gap-7 py-12 flex flex-col justify-center">
         <h2 className="text-3xl text-h-one font-bold text-center">Services</h2>
         <div className="container mx-auto max-w-screen-lg">

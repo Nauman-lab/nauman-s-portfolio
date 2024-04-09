@@ -1,7 +1,6 @@
 import React from "react";
-import "./Skills.css";
 
-const Skills = () => {
+const Skills: React.FC = () => {
   return (
     <>
       <div className="bg-bg-section min-h-96 sm:min-h-80 -mt-10">

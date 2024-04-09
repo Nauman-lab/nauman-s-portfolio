@@ -1,7 +1,7 @@
 import React from "react";
 import MyPortfolioCard from "../MyPortfolioCard/MyPortfolioCard";
 
-const MyPortfolio = () => {
+const MyPortfolio: React.FC = () => {
   // Define array of portfolio data
   const MyPortfolioData = [
     {
@@ -44,7 +44,7 @@ const MyPortfolio = () => {
 
   return (
     <>
-      <div className="bg-main-section min-h-96 sm:min-h-80">
+      <div id="portfolio" className="bg-main-section min-h-96 sm:min-h-80">
         <div className="container mx-auto px-5 gap-y-7 py-12 flex flex-col justify-center">
           <h2 className="text-3xl text-h-one font-bold text-center">
             My Portfolio

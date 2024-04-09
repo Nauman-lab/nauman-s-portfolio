@@ -1,6 +1,4 @@
 "use client";
-// ThemeContext.tsx
-
 import { createContext, useContext, useState, ReactNode } from "react";
 
 type Theme = "cupcake" | "dark" | "cmyk"; // Define your theme types here
